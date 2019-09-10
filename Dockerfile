@@ -4,9 +4,10 @@ MAINTAINER "Sanju Baby"
 
 #Install git
 
-RUN apt-get update \        
+RUN apt-get update 
 
-     apt-get install -y git
+docker build -t myubuntu        
+
 
 RUN mkdir /home/sampleTest1 \      
 
