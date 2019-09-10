@@ -4,11 +4,13 @@ MAINTAINER "Sanju Baby"
 
 #Install git
 
-RUN apt-get update 
+RUN apt-get update \        
 
-RUN mkdir /home/sampleTest \      
+     apt-get install -y git
 
-           cd /home/sampleTest \        
+RUN mkdir /home/sampleTest1 \      
+
+           cd /home/sampleTest1 \        
 
            git clone https://github.com/sanjubi/Docker_learn.git
 
