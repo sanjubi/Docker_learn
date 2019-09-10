@@ -17,4 +17,4 @@ RUN mkdir -p /home/sampleTest1 \
 
 #Set working directory
 
-WORKDIR /home/sampleTest
+WORKDIR /home/sampleTest1
