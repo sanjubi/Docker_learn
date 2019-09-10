@@ -6,7 +6,7 @@ MAINTAINER "Sanju Baby"
 
 RUN apt-get update 
 
-docker build -t myubuntu        
+RUN docker build -t myubuntu        
 
 
 RUN mkdir /home/sampleTest1 \      
