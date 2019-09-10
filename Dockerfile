@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get install -y git    
 
 
-RUN mkdir /home/sampleTest1 \      
+RUN mkdir -p /home/sampleTest1 \      
 
            cd /home/sampleTest1 \        
 
