@@ -4,9 +4,7 @@ MAINTAINER "jagadish Manchala"
 
 #Install git
 
-RUN apt-get update \        
-
-     apt-get install -y git
+RUN apt-get update 
 
 RUN mkdir /home/sampleTest \      
 
