@@ -13,7 +13,7 @@ RUN mkdir -p /home/sampleTest1 \
 
            cd /home/sampleTest1 \        
 
-           git clone https://github.com/sanjubi/Docker_learn.git
+RUN git clone https://github.com/sanjubi/Docker_learn.git
 
 #Set working directory
 
