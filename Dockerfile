@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER "jagadish Manchala"
+MAINTAINER "Sanju Baby"
 
 #Install git
 
