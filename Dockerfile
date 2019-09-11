@@ -9,11 +9,7 @@ RUN apt-get update
 RUN apt-get install -y git    
 
 
-RUN mkdir -p /home/sampleTest \      
-
-           cd /home/sampleTest \        
-
-           git clone https://github.com/jagadish12/SampleTest.git
+RUN git clone https://github.com/jagadish12/SampleTest.git
 
 #Set working directory
 
