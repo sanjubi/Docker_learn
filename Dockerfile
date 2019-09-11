@@ -15,3 +15,7 @@ RUN git clone https://github.com/sanjubi/Docker_learn
 #Set working directory
 
 WORKDIR /home/Docker_learn
+
+FROM python
+
+CMD ["python", "/src/index.py"] 
