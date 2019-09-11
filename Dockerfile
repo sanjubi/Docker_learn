@@ -9,9 +9,9 @@ RUN apt-get update
 RUN apt-get install -y git    
 
 
-RUN mkdir /home/sampleTest \      
+RUN mkdir /home/san \      
 
-           cd /home/sampleTest \        
+           cd /home/san \        
 
            git clone https://github.com/jagadish12/SampleTest.git
 
