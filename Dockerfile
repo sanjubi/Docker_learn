@@ -10,8 +10,7 @@ RUN apt-get install -y git
 
 WORKDIR /home/
 
-RUN git clone https://github.com/sanjubi/Docker_learn
-
+RUN git clone https://github.com/sanjubi/Docker_learn.git
 #Set working directory
 
 WORKDIR /home/Docker_learn
