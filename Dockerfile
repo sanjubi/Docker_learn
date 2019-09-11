@@ -9,11 +9,11 @@ RUN apt-get update
 RUN apt-get install -y git    
 
 
-RUN mkdir -p /home/sampleTest1 \      
+RUN mkdir /home/sampleTest \      
 
-           cd /home/sampleTest1 \        
+           cd /home/sampleTest \        
 
-RUN git clone https://github.com/sanjubi/Docker_learn.git /home/sampleTest1/
+           git clone https://github.com/jagadish12/SampleTest.git
 
 #Set working directory
 
