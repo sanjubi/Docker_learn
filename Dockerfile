@@ -17,4 +17,4 @@ WORKDIR /home/Docker_learn
 
 FROM python
 
-CMD ["python", "/src/index.py"] 
+CMD ["python", "index.py"] 
